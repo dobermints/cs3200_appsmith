@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Users",
-    "slug": "users",
+    "name": "ArtistCreation",
+    "slug": "artistcreation",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 390,
+          "bottomRow": 1540,
           "containerStyle": "none",
           "snapRows": 43,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Users_Artists",
-              "name": "Artists",
+              "id": "ArtistCreation_ArtistAccount",
+              "name": "ArtistAccount",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Users",
+        "id": "ArtistCreation",
         "deleted": false,
         "policies": [],
         "userPermissions": []

@@ -5,7 +5,31 @@
       "isDefault": true
     },
     {
-      "id": "Users",
+      "id": "ArtistCreation",
+      "isDefault": false
+    },
+    {
+      "id": "ArtistRank",
+      "isDefault": false
+    },
+    {
+      "id": "SongRank",
+      "isDefault": false
+    },
+    {
+      "id": "SongLookup",
+      "isDefault": false
+    },
+    {
+      "id": "ArtistProfile",
+      "isDefault": false
+    },
+    {
+      "id": "RecordLabelCatalog",
+      "isDefault": false
+    },
+    {
+      "id": "AddToCatalog",
       "isDefault": false
     }
   ],

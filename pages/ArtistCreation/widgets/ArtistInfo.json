@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 8,
+    "topRow": 45,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -29,7 +29,7 @@
         {"key": "primaryColumns.weekRank.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -71,7 +71,7 @@
     "columnUpdatedAt": 1701401465955,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 36,
-    "widgetName": "Table1",
+    "widgetName": "ArtistInfo",
     "defaultPageSize": 0,
     "columnOrder": [
         "country",
@@ -91,7 +91,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 39,
+    "bottomRow": 76,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -101,7 +101,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "country": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"country\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"country\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "country",
@@ -135,7 +135,7 @@
             "verticalAlignment": "CENTER"
         },
         "lastName": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastName\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "lastName",
@@ -169,7 +169,7 @@
             "verticalAlignment": "CENTER"
         },
         "weekRank": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"weekRank\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"weekRank\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "weekRank",
@@ -203,7 +203,7 @@
             "verticalAlignment": "CENTER"
         },
         "dateJoined": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dateJoined\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dateJoined\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "dateJoined",
@@ -237,7 +237,7 @@
             "verticalAlignment": "CENTER"
         },
         "monthRank": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"monthRank\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"monthRank\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "monthRank",
@@ -271,7 +271,7 @@
             "verticalAlignment": "CENTER"
         },
         "dateOfBirth": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dateOfBirth\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dateOfBirth\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "dateOfBirth",
@@ -305,7 +305,7 @@
             "verticalAlignment": "CENTER"
         },
         "totalDislikes": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"totalDislikes\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"totalDislikes\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "totalDislikes",
@@ -339,7 +339,7 @@
             "verticalAlignment": "CENTER"
         },
         "dayRank": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dayRank\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dayRank\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "dayRank",
@@ -373,7 +373,7 @@
             "verticalAlignment": "CENTER"
         },
         "firstName": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"firstName\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"firstName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "firstName",
@@ -407,7 +407,7 @@
             "verticalAlignment": "CENTER"
         },
         "stageName": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"stageName\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"stageName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "stageName",
@@ -441,7 +441,7 @@
             "verticalAlignment": "CENTER"
         },
         "phone": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phone\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phone\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "phone",
@@ -475,7 +475,7 @@
             "verticalAlignment": "CENTER"
         },
         "totalLikes": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"totalLikes\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"totalLikes\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "totalLikes",
@@ -509,7 +509,7 @@
             "verticalAlignment": "CENTER"
         },
         "email": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "email",
@@ -543,7 +543,7 @@
             "verticalAlignment": "CENTER"
         },
         "username": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"username\"]))}}",
+            "computedValue": "{{ArtistInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"username\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "username",
@@ -580,11 +580,11 @@
     "key": "ua5cg6h4b1",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 40,
+    "rightColumn": 38,
     "textSize": "0.875rem",
     "widgetId": "tyr0mujrbo",
     "minWidth": 450,
-    "tableData": "{{Artists.data}}",
+    "tableData": "{{ArtistAccount.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
