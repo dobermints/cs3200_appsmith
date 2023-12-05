@@ -35,6 +35,10 @@
     {
       "id": "DeleteArtist",
       "isDefault": false
+    },
+    {
+      "id": "LikeSong",
+      "isDefault": false
     }
   ],
   "viewMode": false,
