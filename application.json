@@ -31,6 +31,10 @@
     {
       "id": "AddToCatalog",
       "isDefault": false
+    },
+    {
+      "id": "DeleteArtist",
+      "isDefault": false
     }
   ],
   "viewMode": false,
