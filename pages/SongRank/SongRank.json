@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 410,
+          "bottomRow": 510,
           "containerStyle": "none",
           "snapRows": 43,
           "parentRowSpace": 1,
@@ -33,7 +33,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "SongSearchBar.text"
+                "SongSearchBar.text.replace(/ +/g, \"+\")"
               ],
               "timeoutInMillisecond": 10000
             }

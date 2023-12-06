@@ -33,7 +33,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "ArtistSearchBar.text"
+                "ArtistSearchBar.text.replace(/ +/g, \"+\")"
               ],
               "timeoutInMillisecond": 10000
             }

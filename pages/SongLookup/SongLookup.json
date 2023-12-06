@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 410,
+          "bottomRow": 400,
           "containerStyle": "none",
           "snapRows": 43,
           "parentRowSpace": 1,
@@ -32,7 +32,9 @@
               "name": "GetSongByName",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "SongByName.searchText.replace(/ +/g, \"+\")"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

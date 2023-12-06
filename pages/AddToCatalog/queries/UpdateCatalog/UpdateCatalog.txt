@@ -1,2 +1,1 @@
-{ catalogID: {{UpdateCatalogInfo.formData.catalogID}}
-}
+{{UpdateCatalogInfo.formData}}

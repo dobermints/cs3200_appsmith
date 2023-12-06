@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 730,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 71,
           "parentRowSpace": 1,
@@ -26,16 +26,6 @@
           "leftColumn": 0
         },
         "layoutOnLoadActions": [
-          [
-            {
-              "id": "LikeSong_GetSongName",
-              "name": "GetSongName",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
           [
             {
               "id": "LikeSong_GetNumLikes",
