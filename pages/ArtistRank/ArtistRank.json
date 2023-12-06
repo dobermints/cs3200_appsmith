@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 730,
+          "bottomRow": 600,
           "containerStyle": "none",
           "snapRows": 43,
           "parentRowSpace": 1,
@@ -33,7 +33,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "RankedArtists.searchText"
+                "ArtistSearchBar.text"
               ],
               "timeoutInMillisecond": 10000
             }
