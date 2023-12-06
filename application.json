@@ -21,14 +21,6 @@
       "isDefault": false
     },
     {
-      "id": "ArtistProfile",
-      "isDefault": false
-    },
-    {
-      "id": "RecordLabelCatalog",
-      "isDefault": false
-    },
-    {
       "id": "AddToCatalog",
       "isDefault": false
     },
