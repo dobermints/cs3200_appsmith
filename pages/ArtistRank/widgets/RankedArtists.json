@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 17,
+    "topRow": 44,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -18,7 +18,7 @@
         {"key": "primaryColumns.weekRank.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 2,
+    "leftColumn": 3,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -33,6 +33,7 @@
         "Display"
     ],
     "isLoading": false,
+    "onSearchTextChanged": "",
     "childStylesheet": {
         "button": {
             "boxShadow": "none",
@@ -58,6 +59,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701805799349,
+    "primaryColumnId": "dayRank",
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 42,
     "widgetName": "RankedArtists",
@@ -69,13 +71,13 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 46,
+    "bottomRow": 73,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 36,
     "parentColumnSpace": 17.9375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onSearchTextChanged"}],
     "borderWidth": "1",
     "primaryColumns": {
         "weekRank": {
@@ -184,7 +186,7 @@
     "key": "shujxie334",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 34,
+    "rightColumn": 35,
     "textSize": "0.875rem",
     "widgetId": "nn9h7l4tsi",
     "minWidth": 450,
