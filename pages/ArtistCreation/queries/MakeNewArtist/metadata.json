@@ -61,7 +61,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-01T03:43:57Z"
   },
   "id": "ArtistCreation_MakeNewArtist",
   "deleted": false,

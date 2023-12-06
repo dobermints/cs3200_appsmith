@@ -52,7 +52,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-05T19:46:46Z"
   },
   "id": "ArtistRank_artistRank",
   "deleted": false,
