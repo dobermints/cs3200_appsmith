@@ -57,8 +57,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-05T22:26:11Z"
+    "userPermissions": []
   },
   "id": "AddToCatalog_UpdateCatalog",
   "deleted": false,
