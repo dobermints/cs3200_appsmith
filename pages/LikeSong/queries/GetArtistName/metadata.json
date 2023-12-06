@@ -45,7 +45,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-06T00:03:01Z"
   },
   "id": "LikeSong_GetArtistName",
   "deleted": false,
