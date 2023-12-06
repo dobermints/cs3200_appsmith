@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 27,
     "widgetName": "Button1",
-    "onClick": "{{RemoveArtist.run().then(() => {\n  showAlert('Account Succesfully Deleted!!', '');\n});}}",
+    "onClick": "{{RemoveArtist.run().then(() => {\n  showAlert('Account Succesfully Deleted!!', '');\n});\nGetArtists.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
