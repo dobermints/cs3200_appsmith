@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -46,7 +46,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-05T23:29:48Z"
+    "createdAt": "2023-12-05T23:48:10Z"
   },
   "id": "LikeSong_GetSongName",
   "deleted": false,
