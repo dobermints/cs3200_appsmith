@@ -61,8 +61,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-05T22:37:28Z"
+    "userPermissions": []
   },
   "id": "DeleteArtist_RemoveArtist",
   "deleted": false,
