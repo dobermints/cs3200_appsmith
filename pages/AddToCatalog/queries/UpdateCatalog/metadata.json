@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/ca/catalogs/catalogID"
+        "url": "web:4000/ca/catalogs"
       },
       "invalids": [],
       "messages": [],
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{ catalogID: {{UpdateCatalogInfo.formData.catalogID}}\n}",
+      "body": "{{UpdateCatalogInfo.formData}}",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -52,13 +52,13 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "UpdateCatalogInfo.formData.catalogID"
+      "UpdateCatalogInfo.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-05T22:26:11Z"
+    "createdAt": "2023-12-06T19:49:16Z"
   },
   "id": "AddToCatalog_UpdateCatalog",
   "deleted": false,
